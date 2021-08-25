@@ -25,7 +25,7 @@ SECRET_KEY = '$ne+gd^*^s^lzhk9659v2yvhu@5axjkmls4@n@)@d=*-uq(p%)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['superlists-staging.ottg.eu', '192.168.126.129']
 
 
 # Application definition
