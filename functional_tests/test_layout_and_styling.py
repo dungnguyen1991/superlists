@@ -1,8 +1,6 @@
 from selenium.webdriver.common.keys import Keys
 from .base import FunctionalTest
 
-MAX_WAIT = 10
-
 class LayoutAndStylingTest(FunctionalTest):
     
     def test_layout_and_styling(self):
