@@ -1,5 +1,9 @@
-from fabric.api import run
+from fabric.api import run, env
 from fabric.context_managers import settings
+
+import os
+
+env.password = os.environ.get('FABRIC_PASSWORD')
 
 def _get_manage_dot_py(host):
     return f'~/sites/{host}/virtualenv/bin/python ~/sites/{host}/source/manage.py'
